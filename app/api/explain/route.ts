@@ -22,31 +22,31 @@ export async function POST(req: Request) {
         model: "openai/gpt-4o-mini",
         prompt: `${basePrompt}\n\nText: "${text}"\n\nProvide a brief, clear answer (2-3 sentences) to: What is this?`,
         temperature: 0.7,
-        maxTokens: 150,
+        // maxTokens: 150,
       }),
       generateText({
         model: "openai/gpt-4o-mini",
         prompt: `${basePrompt}\n\nText: "${text}"\n\nWhy does this matter? What's the practical importance? (2-3 sentences)`,
         temperature: 0.7,
-        maxTokens: 150,
+        // maxTokens: 150,
       }),
       generateText({
         model: "openai/gpt-4o-mini",
         prompt: `${basePrompt}\n\nText: "${text}"\n\nHow does this work? Explain the mechanism or process. (2-3 sentences)`,
         temperature: 0.7,
-        maxTokens: 150,
+        // maxTokens: 150,
       }),
       generateText({
         model: "openai/gpt-4o-mini",
         prompt: `${basePrompt}\n\nText: "${text}"\n\nWhat are common mistakes people make about this? (2-3 sentences)`,
         temperature: 0.7,
-        maxTokens: 150,
+        // maxTokens: 150,
       }),
       generateText({
         model: "openai/gpt-4o-mini",
         prompt: `${basePrompt}\n\nText: "${text}"\n\nProvide a simple analogy that explains this concept. (1-2 sentences)`,
         temperature: 0.7,
-        maxTokens: 150,
+        // maxTokens: 150,
       }),
     ])
 
