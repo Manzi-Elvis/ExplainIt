@@ -22,7 +22,7 @@ export function ConfidenceSlider({ value, onChange }: ConfidenceSliderProps) {
             onClick={() => onChange(level.id)}
             className={`flex-1 py-3 px-4 rounded-lg transition-all duration-300 font-medium ${
               value === level.id
-                ? "bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25"
+                ? "bg-linear-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25"
                 : "bg-muted/30 text-muted-foreground hover:bg-muted/50"
             }`}
           >
