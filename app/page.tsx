@@ -50,7 +50,7 @@ export default function Home() {
         <div className="relative z-10 max-w-5xl mx-auto px-6 py-12">
           {/* Header */}
           <div className="text-center mb-12 animate-fade-in">
-            <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-4 bg-gradient-to-r from-cyan-400 via-blue-500 to-violet-600 bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-4 bg-gradient-to-r from-cyan-400 via-blue-500 to-violet-600 bg-clip-text">
               ExplainIt
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
