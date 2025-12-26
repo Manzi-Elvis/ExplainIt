@@ -35,7 +35,7 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-background to-background transition-colors duration-500">
+    <div className="min-h-screen bg-linear-to-br from-background via-background to-background transition-colors duration-500">
       <div className="fixed top-0 right-0 p-6 z-10">
         <ThemeToggle />
       </div>
