@@ -26,7 +26,7 @@ export function ExplanationCards({ explanations, expandedCard, onToggle }: Expla
         >
           <div className="relative h-full bg-card/40 border border-border/30 rounded-xl p-5 hover:border-cyan-500/30 hover:bg-card/60 transition-all duration-300 backdrop-blur-sm overflow-hidden">
             {/* Glow effect */}
-            <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/0 via-cyan-500/0 to-cyan-500/0 opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
+            <div className="absolute inset-0 bg-linear-to-br from-cyan-500/0 via-cyan-500/0 to-cyan-500/0 opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
 
             <div className="relative z-10">
               <div className="flex items-center justify-between mb-3">
